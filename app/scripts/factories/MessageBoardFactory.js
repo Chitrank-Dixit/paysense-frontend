@@ -42,7 +42,8 @@ app
       get_user_ip: function(url) {
         return $http({
           method  : 'GET',
-          url     : url
+          url     : url,
+          headers : { "Content-Type": "application/json"  }
         });
       }
 

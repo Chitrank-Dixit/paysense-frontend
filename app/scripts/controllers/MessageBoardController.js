@@ -23,10 +23,10 @@ app
       });
     }
 
-    MessageBoard.get_user_ip('http://jsonip.com/?callback=?').then(function(response){
-      $scope.user_ip = response['ip'];
+    MessageBoard.get_user_ip($scope.main.base_url+'get-user-ip/').then(function(response){
+      $scope.user_ip = response['data']['data']['ip_address'];
     }).catch(function(error_response){
-      $scope.user_ip = "192.34.32.54";
+      $scope.user_ip = "127.0.0.1";
     });
     //MessageBoard.
     $scope.post_message = function() {
