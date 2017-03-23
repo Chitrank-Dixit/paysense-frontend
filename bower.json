@@ -1,0 +1,19 @@
+{
+  "name": "paysense",
+  "authors": [
+    "Chitrank-Dixit <chitrankdixit@gmail.com>"
+  ],
+  "description": "This is the frontend for Paysense task",
+  "main": "",
+  "keywords": [
+    "paysense",
+    "chatter"
+  ],
+  "license": "MIT",
+  "homepage": "http://chitrank-dixit.github.io",
+  "dependencies": {
+    "angular": "^1.6.3",
+    "angular-route": "^1.6.3",
+    "angular-ui-router": "^0.4.2"
+  }
+}
